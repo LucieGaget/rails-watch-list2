@@ -1,0 +1,5 @@
+<%= link_to "Create a list", new_list_path %>
+
+<% @lists.each do |list| %>
+    <%= list.name %>
+  <% end %>

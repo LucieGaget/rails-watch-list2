@@ -1,0 +1,21 @@
+.btn-green {
+  margin-top: 15px;
+  background-color: rgb(18, 170, 18);
+  color: white;
+  text-decoration: none;
+  padding: 5px 9px;
+  border-radius: 4px;
+  &:hover {
+  color: rgb(18, 170, 18);
+  background-color: white;
+  text-decoration: none;
+  padding: 5px 9px;
+  border-radius: 4px;
+  }
+}
+
+.btn-list {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
